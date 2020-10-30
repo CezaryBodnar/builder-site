@@ -1,38 +1,180 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat SemiBold";
+}
+h3 {
+  margin: 0 !important;
+}
+nav {
+  background-color: #2A5293;
+  height: 100px ;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.nav-links{
+  justify-content: flex-end ;
+  list-style: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+nav .logo {
+  justify-content: flex-start;
+  margin-left: 8%;
+  height: 100px;
+}
+.nav-links li {
+  color: white;
+  text-decoration: none;
+  height: 100px;
+  line-height: 100px;
+  display: inline-block;
+  padding: 0px 40px;
+
+}
+.nav-links li:hover {
+  border-bottom: 6px solid #172e53;
+}
+footer {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #1A1A1D;
+  height: 100px;
+}
+footer .footer-content {
+  margin: 10px;
+  font-size: 14px;
+  color: #777777;
+  display: flex;
+}
+
+footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.carousel {
+  background-color: #1A1A1D;
+
+}
+.carousel-img{
+  height: 750px;
+  object-fit: contain;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+  column-gap: 40px;
+  grid-template-areas:
+  "left right"
+}
+.about-title{
   text-align: center;
+  padding: 2rem;
+}
+.about-text {
+  padding: 10px;
+  font-family: "Montserrat Medium";
+  
+  text-align: justify;
+}
+.right {
+  grid-area: right;
+}
+.left {
+  grid-area: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.realizations-content{
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, [col-start] fit-content(350px) [col-end]);
+  row-gap:30px;
+  column-gap: 50px;
+  margin-bottom: 60px;
+  place-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.realization-image{
+  height: 300px;
+  width: 55vh;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact-container{
+  background-color: #2B2B2B;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.contact-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+  grid-column-gap: 40px;
+  grid-template-areas:
+  "contact-right-text contact-form";
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.map {
+  margin-left:15%;
+  padding-top: 30px;
+}
+.contact-name{
+  width: 450px;
+  height: 50px;
+  outline: none;
+  padding: 5px;
+  text-indent: 5px;
+  margin-bottom: 30px;
+}
+.contact-textarea{
+  width: 450px;
+  outline: none;
+  padding: 5px;
+  text-indent: 5px;
+  margin-bottom: 20px;
+}
+.contact-form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.klauzula{
+  font-size: 11px;
+  width: 450px;
+}
+.sendBtn{
+  width: 140px;
+  height: 45px;
+  color: #464646;
+  font-size: large;
+  text-transform: uppercase;
+  outline: none;
+  border: 2px solid  #464646;
+  margin-top: 30px;
+}
+.contact-right-text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.title-bold{
+  margin-top: 30px;
+  font-family: "Montserrat ExtraBold";
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-medium{
+  font-family: "Montserrat Medium";
 }
