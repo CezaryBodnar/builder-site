@@ -1,6 +1,6 @@
 ## Strona budowlana
 
-Projekt wykonany na bazie własnego projektu: https://cezarybodnar813283.invisionapp.com/prototype/ckborxwn1001hob01tfbkx51s/play
+Projekt wykonany na bazie własnego projektu: https://cezarybodnar813283.invisionapp.com/prototype/ckgzatvr900613401kt8bi1wm/play
 
 **Funkcjonalności strony:**
 
