@@ -14,10 +14,10 @@ function Nav() {
                 <Link to="/construction">
                     <li>Budownictwo</li>
                 </Link>
-                <HashLink smooth to="/#realizations">
+                <HashLink to="/#realizations">
                     <li>Realizacje</li>
                 </HashLink>
-                <HashLink smooth to="/#contact">
+                <HashLink to="/#contact">
                     <li>Kontakt</li>
                 </HashLink>
             </ul>

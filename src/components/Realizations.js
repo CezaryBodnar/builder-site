@@ -4,7 +4,7 @@ import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 const Realizations = () => {
     return (
         <div id={'realizations'} className="realisations-container">
-            <h1 className="about-title">REALIZACJE</h1>
+            <h1 className="about-title">Realizacje</h1>
             <SimpleReactLightbox>
                 <SRLWrapper>
                     <div className="realizations-content">

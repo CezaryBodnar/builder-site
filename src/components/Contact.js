@@ -29,7 +29,7 @@ const Contact = () => {
 
     return (
         <div id={'contact'} className="contact-container">
-            <h1 className="about-title">KONTAKT</h1>
+            <h1 className="about-title">Kontakt</h1>
             <h3 style={{ textAlign: "center" }}>Prywatne przedsiębiorstwo budowlane Bob Budowniczy</h3>
             <div className="contact-content">
                 <div className="contact-right-text">

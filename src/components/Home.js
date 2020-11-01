@@ -22,7 +22,7 @@ const Home = () => {
             <HeroCarousel />
 
             <div className="about-container">
-                <h1 className="about-title">O FIRMIE</h1>
+                <h1 className="about-title">O firmie</h1>
                 <div className="about-content">
                     <div className="left">
                         <div className="about-text">Przedsiębiorstwo Budowlane Bob Budowniczy istnieje od 1975 r. Początkowo profil działalności opierał się na budowie budynków mieszkalnych jednorodzinnych i remontach.</div>
