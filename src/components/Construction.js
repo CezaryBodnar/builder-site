@@ -1,12 +1,13 @@
 import React from 'react'
 import Contact from './Contact'
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+import './mediaquery.css';
 
 const Construction = () => {
     return (
         <div>
             <h1 className="about-title">Budownictwo</h1>
-            <div className="about-text" style={{ margin: "0px 50px 50px 50px" }}>Nasza firma wykonuje wszelkiego typu budynki mieszkalne oraz użytkowe. Najczęstszymi projektami, które wykonujemy to:
+            <p className="about-text" style={{ margin: "0px 50px 50px 50px" }}>Nasza firma wykonuje wszelkiego typu budynki mieszkalne oraz użytkowe. Najczęstszymi projektami, które wykonujemy to:
                     <br></br>
                     - Budownictwo mieszkalne wielorodzinne
                     <br></br>
@@ -38,7 +39,7 @@ const Construction = () => {
 
                     miejscami postojowymi, zielenią, placami zabaw dla dzieci itp.
 
-            </div>
+            </p>
             <SimpleReactLightbox>
                 <SRLWrapper>
                     <div className="realizations-content">

@@ -1,15 +1,16 @@
 import React from 'react'
 import Contact from './Contact'
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+import './mediaquery.css';
 
 const Services = () => {
     return (
         <div>
             <h1 className="about-title">Usługi</h1>
-            <div className="about-text" style={{ margin: "0px 0px 0px 20px" }}>Nasza firma poza działanością budowlaną oferuje szeroką gamę usług powiązanych z budownictwem. Poniżej znajduje się oferta.</div>
+            <p className="about-text" style={{ margin: "0px 0px 0px 20px" }}>Nasza firma poza działanością budowlaną oferuje szeroką gamę usług powiązanych z budownictwem. Poniżej znajduje się oferta.</p>
 
-            <div className="title-services">Maszyny do prac ziemnych:</div>
-            <div className="about-text" style={{ margin: "0px 50px 30px 50px" }}>
+            <p className="title-services">Maszyny do prac ziemnych:</p>
+            <p className="about-text" style={{ margin: "0px 50px 30px 50px" }}>
                 – Koparko-ładowarka JCB 4cx
             <br></br>
             – KOPARKO – Ładowarka 3CX Super
@@ -20,7 +21,7 @@ const Services = () => {
             <br></br>
             – Samochody ciężarowe trzyosiowe z napędem 6×6.
             <br></br>
-            – Drogi systemowe do poruszania się i prowadzenia robót w trudnym terenie jak bagna, trzęsawiska. Drogi systemowe nie wymagają wykonywania kosztownych nasypów i wykonywania wymiany gruntu.</div>
+            – Drogi systemowe do poruszania się i prowadzenia robót w trudnym terenie jak bagna, trzęsawiska. Drogi systemowe nie wymagają wykonywania kosztownych nasypów i wykonywania wymiany gruntu.</p>
 
             <SimpleReactLightbox>
                 <SRLWrapper>
@@ -32,12 +33,12 @@ const Services = () => {
                 </SRLWrapper>
             </SimpleReactLightbox>
 
-            <div className="title-services">Usługi dźwigowe:</div>
-            <div className="about-text" style={{ margin: "0px 50px 30px 50px" }}>
+            <p className="title-services">Usługi dźwigowe:</p>
+            <p className="about-text" style={{ margin: "0px 50px 30px 50px" }}>
                 – Żuraw samojezdny TEREX AC35L o udźwigu max 35t
                 <br></br>
                 – Zuraw stacjonarny
-            </div>
+            </p>
             <SimpleReactLightbox>
                 <SRLWrapper>
                     <div className="realizations-content">
@@ -49,7 +50,7 @@ const Services = () => {
             </SimpleReactLightbox>
 
             <div className="title-services">Usługi transportowe:</div>
-            <div className="about-text" style={{ margin: "0px 50px 30px 50px" }}>
+            <p className="about-text" style={{ margin: "0px 50px 30px 50px" }}>
                 – Transport maszyn niskopodłogowy do 25t.
             <br></br>
             – Transport samochodem ciężarowym skrzyniowym do 24t
@@ -57,7 +58,7 @@ const Services = () => {
             – Transport kruszyw, ziemi, gruzu innych materiałów sypkich samochodami wywrotkami 6×6
             <br></br>
             – Transport mieszanek betonowych
-            </div>
+            </p>
             <SimpleReactLightbox>
                 <SRLWrapper>
                     <div className="realizations-content">
@@ -68,11 +69,11 @@ const Services = () => {
                 </SRLWrapper>
             </SimpleReactLightbox>
 
-            <div className="title-services">Beton towarowy</div>
-            <div className="about-text" style={{ margin: "0px 50px 30px 50px" }}>Oferujemy betony klas od B10 do B35 w atrakcyjnych cenach wraz z transportem oraz usługą pompowania.</div>
-            <div className="title-services" style={{ fontSize: "18px" }}>Produkcja mieszanek betonowych:</div>
+            <p className="title-services">Beton towarowy</p>
+            <p className="about-text" style={{ margin: "0px 50px 30px 50px" }}>Oferujemy betony klas od B10 do B35 w atrakcyjnych cenach wraz z transportem oraz usługą pompowania.</p>
+            <p className="title-services" style={{ fontSize: "18px" }}>Produkcja mieszanek betonowych:</p>
 
-            <div className="about-text" style={{ margin: "0px 50px 30px 50px" }}>
+            <p className="about-text" style={{ margin: "0px 50px 30px 50px" }}>
                 - wytwórnia mieszanek betonowych sterowana komputerowo – wagowe dozowanie - wszystkich składników     mieszanki betonowej- wydajność około 25 m3/h
 <br></br>
 - węzeł betoniarski sterowany półautomatycznie
@@ -84,7 +85,7 @@ const Services = () => {
 - prasa do badania wytrzymałości próbek betonowych na ściskanie MATEST
 <br></br>
 - zestaw sit do badania uziarnienia kruszyw budowlanych
-            </div>
+            </p>
 
             <SimpleReactLightbox>
                 <SRLWrapper>

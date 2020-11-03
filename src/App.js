@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Nav from './components/Nav'
 import Services from './components/Services'
 import Construction from './components/Construction'
-import Realizations from './components/Realizations'
 import Home from './components/Home'
 import ScrollToTop from "react-scroll-to-top";
-
+import './components/mediaquery.css';
 
 function App() {
   return (
@@ -21,8 +20,8 @@ function App() {
       </div>
       <footer>
         <div className="footer-content">
-          Copyright 2020 Simi Development. Wszelkie prawa zastrzeżone. | Polityka Prywatności
-          </div>
+          <span className="copyright"> Copyright 2020 Simi Development. Wszelkie prawa zastrzeżone. | Polityka Prywatności</span>
+        </div>
         <ScrollToTop smooth style={scrollButton} component={<i className="fas fa-chevron-up"></i>}>
           <button className="scrollButton"></button>
         </ScrollToTop>
